@@ -5,8 +5,8 @@ function MyApp({ Component, pageProps }) {
     return (
         <MoralisProvider
             initializeOnMount
-            appId={process.env.NEXT_PUBLIC_APP_ID}
-            serverUrl={process.env.NEXT_PUBLIC_SERVER_URL}
+            appId='xxxx'
+            serverUrl='xxxx'
         >
             <Component {...pageProps} />
         </MoralisProvider>
